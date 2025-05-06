@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<title>Sync'd Up</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="icon" type="image/jpg" href="img/cat.jpg">
+   <link href="page.css" rel="stylesheet">
+</head>
+
+<body>	
+		
+	<div class="head">
+	<header>
+		<h1>Sync'd Up!</h1>
+	</header>
+	</div>
+
+	<div class="navhor">
+		<a href="index.html">Home</a>
+		<a href="game.html">Games!</a>
+		<a href="about.html">About</a>
+		<a href="contact.html">Join Us!</a>
+	</div>
+
+				<div id="wrapper">
+	
+
+
+
+
+<form>				<!--REQUIRED: form, 5/1/25 -->	
+			<label>Join Us Here!</label>
+		<fieldset>
+				<p>Want to leave your own notes of key knowledge on <i>Sync'd Up!</i>? Create
+				an account and join our beat driven community!</p>
+		</fieldset>
+		
+
+		<fieldset>		<!--REQUIRED: fieldset, 5/1/25 -->
+
+			<label for="user">Username:</label>	
+			<input type="text" name="user" id="user" placeholder="Username 8-12 characters" minlength="8" maxlength="12" required> <!--REQUIRED: placeholder, 5/1/25 --><!--REQUIRED: maxlength, 5/1/25 -->
+		
+			<label for="password">Password:</label>
+			<input type="password" name="password" id="password" placeholder="Atleast 12 characters*" required> <!--REQUIRED: required, 5/1/25 -->
+			
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" placeholder="Must be valid address" pattern=".{12,}" autocomplete="on" > <!--REQUIRED: name, 5/1/25 --><!--REQUIRED: pattern, 5/1/25 --><!--REQUIRED: autocomplete, 5/1/25 -->
+		
+		</fieldset>
+
+	
+	
+	
+	
+	
+	<label>Give Us Game Recommendations</label>
+	
+	<fieldset>
+
+	<label for="recs">What Game Should We Cover Next?</label>
+		<textarea id="recs" name="recs" rows="6" cols="60"></textarea>
+	</fieldset>
+
+	
+	
+	
+	
+	
+
+	<input type="submit" value="Submit Here">
+	<input type="reset" value="Reset">
+
+
+	
+</form>
+	
+	
+		</div>
+		
+	<div class="foot">
+	<footer>Inman 2025</footer>
+	</div>
+	
+</body>
+</html>
